@@ -1,0 +1,85 @@
+body {
+    margin:0;
+    font-family: 'Source Code Pro', monospace;
+    color:#0f0f10;
+}
+
+section{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+
+.foot {
+    background: #0f0f10;
+    color:white;
+    min-height: 1px;
+}
+
+.pastel-green1 {
+    background: #aae9a4
+}
+
+.pastel-green2 {
+    background: #77df79
+}
+
+.pastel-green3 {
+    background: #47c751
+}
+
+.pastel-navy1 {
+    background: #5768cd
+}
+
+.pastel-navy2 {
+    background: #414abb
+}
+
+.pastel-navy3 {
+    background: #2b2ea3
+}
+
+.dark {
+    background: #0f0f10;
+}
+
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.svg1 {
+    background-image:url('./../svgs/layered-waves-haikei1.svg');
+}
+
+.svg2 {
+    background-image:url('./../svgs/layered-waves-haikei2.svg');
+}
+
+.svg3 {
+    background-image:url('./../svgs/layered-waves-haikei3.svg');
+}
+
+.svgfoot {
+    background-image: url('./../svgs/layered-waves-haikei-foot.svg');
+}
+
+#socials * {
+    padding:6px;
+    margin-bottom: 6px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.social-imgs:hover,
+.social-imgs:focus  {
+    transition: .2s;
+    filter: invert(71%) sepia(56%) saturate(1002%) hue-rotate(183deg) brightness(101%) contrast(104%);
+}
