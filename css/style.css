@@ -4,7 +4,7 @@ body {
     color:#0f0f10;
 }
 
-section{
+section {
     position: relative;
     display:flex;
     flex-direction: column;
@@ -53,6 +53,23 @@ section{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spacer-title {
+    margin-top: -150px;
+    font-size: 60px;
+    color:white;
+}
+
+.spacer-title-dark {
+    margin-top: -150px;
+    font-size: 60px;
+    color:#0f0f10;
 }
 
 .svg1 {
@@ -82,4 +99,59 @@ section{
 .social-imgs:focus  {
     transition: .2s;
     filter: invert(71%) sepia(56%) saturate(1002%) hue-rotate(183deg) brightness(101%) contrast(104%);
+}
+
+.intro-container {
+    padding:6px;
+    display:flex;
+    justify-content: space-around;
+    visibility: hidden;
+}
+
+.intro-img {
+    display: inline-block;
+    vertical-align: top;
+    width: 323px;
+    height: 520px;
+}
+
+.intro-text {
+    display: inline-block;
+    margin-left: 50px;
+    max-width: 500px;
+    font-size: 16px;
+}
+
+.fadeIn {
+    -webkit-animation: animat_show 1.5s;
+    animation: animat_show 1.5s;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show{
+    0%{opacity:0}
+    100%{opacity:1}
+}
+
+.education-container {
+    display:flex;
+    justify-content: space-around;
+    color:white;
+}
+
+.education-seal {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.education-title {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#courses {
+    color:white;
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size: 17px;
 }
