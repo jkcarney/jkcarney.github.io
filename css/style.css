@@ -68,6 +68,7 @@ section {
 
 .spacer-title-dark {
     margin-top: -150px;
+    margin-bottom: -50px;
     font-size: 60px;
     color:#0f0f10;
 }
@@ -99,6 +100,28 @@ section {
 .social-imgs:focus  {
     transition: .2s;
     filter: invert(71%) sepia(56%) saturate(1002%) hue-rotate(183deg) brightness(101%) contrast(104%);
+}
+
+.company-logo-svg:hover,
+.company-logo-svg:focus {
+    transition: .2s;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.company-logo-svg {
+    transition: .2s;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.work-experience-single {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.work-experience-text {
+    display: inline-block;
 }
 
 .intro-container {
